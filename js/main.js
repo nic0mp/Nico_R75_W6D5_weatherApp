@@ -10,7 +10,7 @@ async function getData(){
     document.getElementById("country").innerHTML= data.sys.country
     document.getElementById("high").innerHTML = `${data.main.temp_max} F`;
     document.getElementById("low").innerHTML =`${data.main.temp_min} F`;
-    document.getElementById("feel").innerHTML =`${data.main.feels_like} F`;
+    document.getElementById("feel").innerHTML =`${data.main.temp} F`;
     document.getElementById("description").innerHTML=data.weather[0].description;
     document.getElementById("cloud").innerHTML = `${data.clouds.all} %`;
     return data

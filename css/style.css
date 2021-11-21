@@ -1,0 +1,25 @@
+body{
+    max-width: 70%;
+}
+
+.container{
+    margin-left:35%;
+    margin-right:auto;
+    /* color:white; */
+}
+
+.weatherBox{
+    border: solid 2px black;
+    margin-top: 3vh;
+
+}
+.weatherContent{
+    height:4vh;
+}
+
+.titlehead{
+    margin-top:3vh;
+}
+.btn{
+    margin-top:2vh;
+}
