@@ -1,20 +1,30 @@
 body{
-    max-width: 70%;
+    /* max-width: 70%; */
+    
 }
 
 .container{
-    margin-left:35%;
-    margin-right:auto;
+    margin-top: 5%;
+    margin-right: auto;
+    width: 50%;
+    /* margin-left:35%;
+    margin-right:auto; */
+    
     /* color:white; */
 }
 
 .weatherBox{
     border: solid 2px black;
     margin-top: 3vh;
+    margin-right: auto;
 
 }
 .weatherContent{
     height:4vh;
+    
+}
+.infoContainer{
+    background-color: #FEFAF1;
 }
 
 .titlehead{
@@ -22,4 +32,25 @@ body{
 }
 .btn{
     margin-top:2vh;
+}
+
+.wbrows{
+    margin-right: auto;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.bbox{
+    margin-bottom: 20px;
+
+}
+
+.weatherPix{
+    background-image:url(/images/bkimg01.jpg);
+    height:100vh;
+    width:100vw;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:absolute;
+   
 }
